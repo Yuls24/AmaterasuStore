@@ -1,0 +1,293 @@
+
+
+/*estilo para botones de inicio*/
+.container-0 {
+    background-color: #f0a2cd; /* Color de fondo */
+    padding: 10px; /* Espaciado interno para separar los elementos */
+    width: 100%; /* Ancho */
+}
+
+.container-0 button {
+    background-color: #f750ac; /* Color de fondo del botón */
+    border: none; /* Quita el borde del botón */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    text-align: center; /* Alinea el texto al centro */
+    text-decoration: none; /* Quita la decoración del texto */
+    display: inline-block; /* Hace que los botones sean bloques en línea */
+    font-size: 25px; /* Tamaño del texto */
+    margin: 4px 2px; /* Margen exterior del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    border-radius: 10px; /* Borde redondeado */
+}
+
+.container-0 button:hover {
+    background-color: #9b70d7; /* Cambia el color del botón al pasar el cursor */
+}
+
+.container-0 img {
+    margin-left: 10px; /* Espacio entre las imágenes */
+}
+
+.container-0 {
+    background-color: #f0a2cd; /* Color de fondo */
+    padding: 10px; /* Espaciado interno para separar los elementos */
+}
+
+
+/*--------------------titulo y muñeca---------------------*/
+.container-1 form {
+    display: flex; /* Utiliza flexbox para alinear los elementos */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+}
+
+
+/*estilo para muñeca principal y barra de busqueda*/
+.container-1 input[type="text"],
+.container-1 button[type="submit"] {
+    margin: 5px; /* Añade un pequeño margen entre los elementos del formulario */
+}
+/*imagen muñeca grande*/
+.imagen {
+    float: right; /* Coloca la imagen a la derecha */
+    margin-left: 10px; /* Añade un pequeño margen a la izquierda de la imagen */
+}
+
+/*----------------------------------pendiente boton ver toda la tienda-----------------*/
+/*boton ver toda la tienda*/
+.container-4 button.central {
+    background-color: #ff6600; /* Color de fondo del botón */
+    border: none; /* Quita el borde del botón */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    text-align: center; /* Alinea el texto al centro */
+    text-decoration: none; /* Quita la decoración del texto */
+    display: inline-block; /* Hace que los botones sean bloques en línea */
+    font-size: 16px; /* Tamaño del texto */
+    margin: 10px; /* Margen exterior del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.container-4 button.central:hover {
+    background-color: #ff8533; /* Cambia el color del botón al pasar el cursor */
+}
+/*-----------------------------///////////--------------------------------------*/
+
+
+/*estilos para el titulo*/
+.container-1 {
+    text-align: center; /* Centra el contenido horizontalmente */
+    background-color: #f0f0f0; /* Color de fondo */
+    padding: 20px; /* Espacio interno */
+    font-size: 70px; /* Tamaño de fuente más grande */
+    width: 100%; /* Ancho */
+
+}
+
+.container-1 h1 {
+    display: inline-block; /* Hace que el título se comporte como un bloque en línea */
+    
+}
+
+.container-1 .imagen {
+    display: inline-block; /* Hace que la imagen se comporte como un bloque en línea */
+    align: right; /* Alinea los elementos a la derecha */
+}
+
+.container-1 img {
+    margin-left: 10px; /* Margen a la izquierda de la imagen */
+}
+
+
+
+/*-----------------------------------espacio categorias----------------------------*/
+.container-2 {
+    text-align: center; /* Centra el contenido horizontalmente */
+    background-color: #f683ad; /* Color de fondo */
+     font-size: 30px; /* Tamaño de fuente más grande */
+}
+
+
+
+/*---------------------------imagenes numero1-----------------------------*/
+.container-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-box {
+    background-color: #f0a2cd; /* Color de fondo del cuadro */
+    margin: 10px; /* Margen entre cada cuadro */
+    padding: 10px; /* Espaciado interno del cuadro */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.offer-box img {
+    display: block; /* Hace que la imagen sea un bloque para evitar espacios adicionales */
+    width: 80%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: 300px; /* Permite que la altura de la imagen se ajuste automáticamente */
+}
+
+
+/* Estilos para el texto */
+.image-text {
+    font-size: 25px; /* Tamaño de letra del texto */
+    margin: 0; /* Eliminar el margen predeterminado */
+    text-align: center; /* Centrar el texto */
+    font-weight: bold; /* Aplicar negrita */
+}
+
+
+/*-----------------------------botones novedades, carage-------------------------------*/
+.container-4 button {
+    background-color: #f750ac; /* Color de fondo del botón */
+    border: none; /* Quita el borde del botón */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    text-align: center; /* Alinea el texto al centro */
+    text-decoration: none; /* Quita la decoración del texto */
+    display: inline-block; /* Hace que los botones sean bloques en línea */
+    font-size: 30px; /* Tamaño del texto */
+    margin: 4px 2px; /* Margen exterior del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    border-radius: 20px; /* Borde redondeado */
+    font-weight: bold; /* Aplicar negrita */
+}
+
+.container-4 button:hover {
+    background-color: #9b70d7; /* Cambia el color del botón al pasar el cursor */
+}
+
+.container-4 img {
+    margin-left: 30px; /* Espacio entre las imágenes */
+
+}
+
+
+
+/*----------------------imagenes de ofertas--------------------*/
+.container-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-boxy {
+    background-color: #f0a2cd; /* Color de fondo del cuadro */
+    margin: 10px; /* Margen entre cada cuadro */
+    padding: 10px; /* Espaciado interno del cuadro */
+    border-radius: 15px; /* Borde redondeado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    float: left; /* Alinear a la izquierda */
+    margin-right: 25px; /* Espacio entre las imágenes y el contenido adyacente */
+    margin-bottom: 25px; /* Espacio entre cada imagen con texto */
+}
+
+.offer-boxy img {
+    display: block; /* Hace que la imagen sea un bloque para evitar espacios adicionales */
+    width: 80%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: 400px; /* Permite que la altura de la imagen se ajuste automáticamente */
+    font-size: 10px; /* Tamaño de letra del texto */
+    margin: 0; /* Eliminar el margen predeterminado */
+    text-align: center; /* Centrar el texto */
+    font-size: 5px; /* Tamaño de letra del texto */
+}
+
+/* Estilos para el texto */
+.image-texti {
+    font-size: 8px; /* Tamaño de letra del texto */
+    margin: 0; /* Eliminar el margen predeterminado */
+    text-align: center; /* Centrar el texto */
+    font-weight: bold; /* Aplicar negrita */
+}
+ /* Estilos para las imágenes */
+ .offer-boxy {
+    position: relative; /* Establecer el posicionamiento relativo para los contenedores de imagen */
+    float: left; /* Alinear a la izquierda */
+    margin-right: 20px; /* Espacio entre las imágenes y el contenido adyacente */
+    margin-bottom: 50px; /* Espacio entre cada imagen con texto */
+  }
+
+  /* Estilos para el botón de oferta */
+  .offer-button {
+    position: absolute; /* Establecer el posicionamiento absoluto */
+    top: 0; /* Colocar en la parte superior */
+    left: 0; /* Colocar en el lado izquierdo */
+    background-color: rgb(241, 33, 95); /* Color de fondo del botón */
+    color: white; /* Color de texto */
+    padding: 10px 10px; /* Espacio interno del botón */
+    border: none; /* Sin borde */
+    border-radius: 8px; /* Borde redondeado */
+    font-weight: bold; /* Negrita */
+  }
+/*------------------------------Imagenes redondeadas-------*/
+
+.container-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-boxe {
+    background-color: #f0a2cd; /* Color de fondo del cuadro */
+    margin: 10px; /* Margen entre cada cuadro */
+    padding: 35px; /* Espaciado interno del cuadro */
+    border-radius: 100px; /* Borde redondeado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.offer-boxe img {
+    display: block; /* Hace que la imagen sea un bloque para evitar espacios adicionales */
+    width: 80%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: 300px; /* Permite que la altura de la imagen se ajuste automáticamente */
+}
+
+
+/* Estilos para el texto */
+.image-texto {
+    font-size: 30px; /* Tamaño de letra del texto */
+    margin: 0; /* Eliminar el margen predeterminado */
+    text-align: center; /* Centrar el texto */
+    font-weight: bold; /* Aplicar negrita */
+}
+
+/* Estilos para el contenedor y los párrafos */
+.container-7 {
+    display: flex; /* Para que los elementos se alineen en una fila */
+    justify-content: space-around; /* Para distribuir el espacio entre los elementos */
+    background-color: #f0f0f0; /* Color de fondo predeterminado */
+    padding: 20px; /* Espaciado interno */
+    background-color: #f683ad; /* Color de fondo */
+}
+
+.container-7 p {
+    font-size: 30px; /* Tamaño de letra */
+    margin: 10; /* Eliminar el margen predeterminado de los párrafos */
+    background-color: #b591e7; /* Color de fondo */
+}
+
+.container-8 {
+    background-color: rgb(115, 111, 111); /* Establece el fondo negro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura al 100% del viewport */
+}
+
+.offer-boxi {
+    margin: 10px; /* Ajusta el margen entre los elementos */
+    text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.offer-boxi img {
+    height: 80px;
+    width: 80px;
+}
+
+.offer-text {
+    color: white; /* Color del texto */
+    font-size: 8px; /* Tamaño del texto */
+}
